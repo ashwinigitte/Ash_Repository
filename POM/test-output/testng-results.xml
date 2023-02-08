@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T22:46:42 IST" name="Default suite" finished-at="2023-02-08T22:47:29 IST" duration-ms="46749">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyCurrentUrl()[pri:1, instance:testt.LoginTest@35aea049]" name="verifyCurrentUrl" class="testt.LoginTest"/>
+        <method signature="LoginTest.verifyTitleOfLoginPage()[pri:0, instance:testt.LoginTest@35aea049]" name="verifyTitleOfLoginPage" class="testt.LoginTest"/>
+        <method signature="LoginTest.verifyValidUsername()[pri:2, instance:testt.LoginTest@35aea049]" name="verifyValidUsername" class="testt.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyBuildtitle()[pri:0, instance:testt.LoginTest@35aea049]" name="verifyBuildtitle" class="testt.LoginTest"/>
+        <method signature="LoginTest.verifyCurrentUrl()[pri:1, instance:testt.LoginTest@35aea049]" name="verifyCurrentUrl" class="testt.LoginTest"/>
+        <method signature="LoginTest.verifyDashboard()[pri:3, instance:testt.LoginTest@35aea049]" name="verifyDashboard" class="testt.LoginTest"/>
+        <method signature="LoginTest.verifyTitleOfLoginPage()[pri:0, instance:testt.LoginTest@35aea049]" name="verifyTitleOfLoginPage" class="testt.LoginTest"/>
+        <method signature="LoginTest.verifyValidUsername()[pri:2, instance:testt.LoginTest@35aea049]" name="verifyValidUsername" class="testt.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-02-08T22:46:42 IST" name="Default test" finished-at="2023-02-08T22:47:29 IST" duration-ms="46749">
+      <class name="testt.LoginTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:46:42 IST" name="initBrowser" finished-at="2023-02-08T22:47:25 IST" duration-ms="42368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:25 IST" name="pageObjects" finished-at="2023-02-08T22:47:25 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="verifyBuildtitle()[pri:0, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:25 IST" name="verifyBuildtitle" finished-at="2023-02-08T22:47:25 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuildtitle -->
+        <test-method signature="verifyTitleOfLoginPage()[pri:0, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:25 IST" name="verifyTitleOfLoginPage" finished-at="2023-02-08T22:47:25 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfLoginPage -->
+        <test-method signature="verifyCurrentUrl()[pri:1, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:25 IST" name="verifyCurrentUrl" finished-at="2023-02-08T22:47:25 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentUrl -->
+        <test-method signature="verifyValidUsername()[pri:2, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:25 IST" name="verifyValidUsername" finished-at="2023-02-08T22:47:26 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUsername -->
+        <test-method signature="verifyDashboard()[pri:3, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:26 IST" name="verifyDashboard" finished-at="2023-02-08T22:47:28 IST" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboard -->
+        <test-method is-config="true" signature="tearDownEnvironment()[pri:0, instance:testt.LoginTest@35aea049]" started-at="2023-02-08T22:47:28 IST" name="tearDownEnvironment" finished-at="2023-02-08T22:47:29 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvironment -->
+      </class> <!-- testt.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
