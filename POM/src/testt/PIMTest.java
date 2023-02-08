@@ -21,4 +21,9 @@ public void verifyEmpSearchEmpId()
 	String id=pp.clickOnSearch("0273");
 	Assert.assertEquals(id,"0273");
 	}
+
+@Test(priority=5,groups= {"smoke","regression"})//updated TC to push on git repository
+public void TestingChanges() {
+	Assert.assertEquals(false, false);
+}
 }
